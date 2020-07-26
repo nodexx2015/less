@@ -1,0 +1,21 @@
+body {
+  color: black;
+}
+body:hover {
+  color: white;
+}
+@media all and (max-width: 575px) {
+  body {
+    color: green;
+  }
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
