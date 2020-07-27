@@ -1,8 +1,7 @@
-//compress: false , out: test.css
-@primary: white;
-@mobile: ~"all and (max-width: 575px)";
-@col: 12;
-@grid-width: 1200px;
+//compress: false , out: test.css, sourceMap:true;
+@import "vars/vars";
+@import "mixin";
+@import "grid";
 
 body {
     color: black;
@@ -11,18 +10,19 @@ body {
         color: @primary;
     }
 }
+
 @media @mobile {
     body {
         color: green;
+    .btn(@secondary);   //mixin
     }
 }
-.container {
-    width: 100%;
-    max-width: @grid-width;
-    margin-left: auto;
-    margin-right: auto;
-}
-.row {
-    display: flex;
-    flex-wrap: wrap;
+
+.button {
+    &--second {
+        color: @secondary;
+    }
+    &:hover {
+        color: @primary;
+    }
 }

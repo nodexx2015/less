@@ -1,3 +1,89 @@
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.col-1 {
+  width: 8.33333333%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-2 {
+  width: 16.66666667%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-3 {
+  width: 25%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-4 {
+  width: 33.33333333%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-5 {
+  width: 41.66666667%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-6 {
+  width: 50%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-7 {
+  width: 58.33333333%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-8 {
+  width: 66.66666667%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-9 {
+  width: 75%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-10 {
+  width: 83.33333333%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-11 {
+  width: 91.66666667%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
+.col-12 {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  flex: 1;
+}
 body {
   color: black;
 }
@@ -7,15 +93,17 @@ body:hover {
 @media all and (max-width: 575px) {
   body {
     color: green;
+    color: #bbbb;
+  }
+  body:hover,
+  body:focus {
+    color: rgba(162, 162, 162, 0.73333333);
   }
 }
-.container {
-  width: 100%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+.button--second {
+  color: #bbbb;
 }
-.row {
-  display: flex;
-  flex-wrap: wrap;
+.button:hover {
+  color: white;
 }
+/*# sourceMappingURL=./test.css.map */
