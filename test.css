@@ -92,18 +92,22 @@ body:hover {
 }
 @media all and (max-width: 575px) {
   body {
-    color: green;
-    color: #bbbb;
+    background-color: green;
+    font-size: 20px;
+    color: #ee2020;
   }
-  body:hover,
-  body:focus {
-    color: rgba(162, 162, 162, 0.73333333);
+  body:hover {
+    color: #0e0101;
   }
+}
+.button {
+  font-size: 25px;
+  color: #bbbb;
 }
 .button--second {
   color: #bbbb;
 }
 .button:hover {
-  color: white;
+  color: rgba(59, 59, 59, 0.73333333);
 }
 /*# sourceMappingURL=./test.css.map */

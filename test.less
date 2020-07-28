@@ -13,8 +13,8 @@ body {
 
 @media @mobile {
     body {
-        color: green;
-    .btn(@secondary);   //mixin
+        background-color: green;
+    .font();   //mixin
     }
 }
 
@@ -22,7 +22,5 @@ body {
     &--second {
         color: @secondary;
     }
-    &:hover {
-        color: @primary;
-    }
+    .font(25px, @secondary);
 }
